@@ -13,11 +13,11 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
 
 		model.addAttribute("message", "Spring 3 MVC Hello World");
-		return "hello";
+		return "pallavi";
 
 	}
 
-	@RequestMapping(value = "/hello/{name:.+}", method = RequestMethod.GET)
+	@RequestMapping(value = "/pallavi/{name:.+}", method = RequestMethod.GET)
 	public ModelAndView hello(@PathVariable("name") String name) {
 
 		ModelAndView model = new ModelAndView();
