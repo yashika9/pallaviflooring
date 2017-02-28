@@ -9,11 +9,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-@EnableWebMvc //mvc:annotation-driven
+@EnableWebMvc // mvc:annotation-driven
 @Configuration
 @ComponentScan({ "com.pallaviflooring.www.controller" })
-public class SpringWebConfig extends WebMvcConfigurerAdapter{
-	
+public class SpringWebConfig extends WebMvcConfigurerAdapter {
+
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");

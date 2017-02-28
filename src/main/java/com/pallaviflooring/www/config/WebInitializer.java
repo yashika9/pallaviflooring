@@ -1,8 +1,6 @@
-package com.pallaviflooring.www.servlet;
+package com.pallaviflooring.www.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
-import com.pallaviflooring.www.config.SpringWebConfig;
 
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
 
